@@ -16,7 +16,7 @@
 
 #This description is longer than the script itself :]
 
-Script Example
+Script Example:
 
 	:~ $ ~/temp/./ipscrub-kvp.sh ~/temp/hostcopy
 
@@ -26,16 +26,16 @@ Script Example
 			2-IPv4 domain.local
 			3-IPv4	blah.com
 
-Contents of Output
+Output file contents:
 
-##
-# Host Database
-#
-# localhost is used to configure the loopback interface
-# when the system is booting.  Do not change this entry.
-##
-2-IPv4	localhost
-1-IPv4	broadcasthost
-2-IPv4  domain.local
-3-IPv4	blah.com
-::1		localhost
+	##
+	# Host Database
+	#
+	# localhost is used to configure the loopback interface
+	# when the system is booting.  Do not change this entry.
+	##
+	2-IPv4	localhost
+	1-IPv4	broadcasthost
+	2-IPv4  domain.local
+	3-IPv4	blah.com
+	::1		localhost
