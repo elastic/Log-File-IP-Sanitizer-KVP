@@ -1,5 +1,7 @@
 #another IP Sanitizer by Roberto Seldner
+
 #Syntax: ipscrub-kvp.sh /path/sourcefile
+
 #Output will be in the sourcefile's directory
 
 #The purpose of this script is to replace IPv4 addresses (and subnets) in a file, such as a syslog, with a random, unique, identifier.  This sanitizes a log while preserving some meaning/context.
