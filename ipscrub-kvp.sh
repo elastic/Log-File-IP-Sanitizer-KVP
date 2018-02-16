@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#another IP Sanitizer by Roberto Seldner
+
 #Syntax: ipscrub-kvp.sh /path/sourcefile
 #Output will be in the sourcefile's directory
 
